@@ -35,19 +35,6 @@ body {
   color: var(--text-color);
 }
 
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 2rem 7%;
-  background: transparent;
-  display: flex;
-  align-items: center;
-  z-index: 100;
-  transition: 0.5s;
-}
-
 section {
   min-height: 100vh;
   padding: 10rem 7% 2rem;
