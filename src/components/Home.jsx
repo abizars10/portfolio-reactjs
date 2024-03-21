@@ -22,8 +22,7 @@ export default function Home() {
             <i className="bx bxl-linkedin"></i>
           </a>
         </div>
-
-        <a href="https://drive.google.com/file/d/1tRIkpOKnMpOGKsNuhidMXYceVUl4Oky7/view?usp=drive_link" target="_blank" className="btn">
+        <a href="https://drive.google.com/file/d/1tRIkpOKnMpOGKsNuhidMXYceVUl4Oky7/view?usp=drive_link" target="_blank" type="button" className="btn btn-outline-primary">
           Download CV
         </a>
       </div>
