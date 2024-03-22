@@ -1,0 +1,16 @@
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--main-color);
+  filter: drop-shadow(10px 7px 3px var(--shadow-color));
+}
+
+.nav-item a {
+  margin-right: 1rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.nav-item a.active {
+  color: var(--main-color) !important;
+}

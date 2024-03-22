@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <section className="home" id="home">
-      <div className="home-content">
+      <div className="home-content container-md">
         <h3>Hallo, introduce me</h3>
         <h1>Abizar Arrifa&apos;i</h1>
         <p>
@@ -25,6 +25,9 @@ export default function Home() {
         <a href="https://drive.google.com/file/d/1tRIkpOKnMpOGKsNuhidMXYceVUl4Oky7/view?usp=drive_link" target="_blank" type="button" className="btn btn-outline-primary">
           Download CV
         </a>
+      </div>
+      <div className="home-img">
+        <img src="/home.png" className="float-end" />
       </div>
     </section>
   );
