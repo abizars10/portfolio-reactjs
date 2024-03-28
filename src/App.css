@@ -1,7 +1,7 @@
 .logo {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--main-color);
+  color: var(--main-color) !important;
   filter: drop-shadow(10px 7px 3px var(--shadow-color));
 }
 
