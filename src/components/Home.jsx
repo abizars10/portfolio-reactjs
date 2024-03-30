@@ -2,12 +2,15 @@ export default function Home() {
   return (
     <div className="container">
       <section className="home row">
-        <div className="home-content col-md-6 d-flex flex-column justify-content-center text-center text-md-start">
+        <div className="home-img col-md-6 d-flex align-items-center justify-content-center order-md-last">
+          <img src="/home.png" className="float-end" />
+        </div>
+        <div className="home-content col-md-6 d-flex flex-column justify-content-center text-center text-md-start order-md-first">
           <div>
-            <h3>Hallo, introduce me</h3>
-            <h1>Abizar Arrifa&apos;i</h1>
-            <p>
-              and i&apos;m a <span>Fullstack Developer</span>
+            <h3 className="fw-bold">Hallo, introduce me</h3>
+            <h1 className="fw-bold">ABIZAR ARRIFA&apos;I</h1>
+            <p className="fs-5">
+              and i&apos;m a <span className="fw-bold">Fullstack Developer.</span>
             </p>
 
             <div className="social-media">
@@ -24,13 +27,10 @@ export default function Home() {
                 <i className="bx bxl-linkedin"></i>
               </a>
             </div>
-            <a href="https://drive.google.com/file/d/1tRIkpOKnMpOGKsNuhidMXYceVUl4Oky7/view?usp=drive_link" target="_blank" type="button" className="btn btn-outline-primary">
+            <a href="https://drive.google.com/file/d/1tRIkpOKnMpOGKsNuhidMXYceVUl4Oky7/view?usp=drive_link" target="_blank" type="button" className="btn ">
               Download CV
             </a>
           </div>
-        </div>
-        <div className="home-img col-md-6 d-flex align-items-center justify-content-center">
-          <img src="/home.png" className="float-end" />
         </div>
       </section>
     </div>
